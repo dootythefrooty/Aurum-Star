@@ -29,11 +29,12 @@ namespace Content.Shared.PAI
             _actionsSystem.AddAction(uid, ref component.MapAction, component.MapActionId);
         }
 
-        private void OnShutdown(EntityUid uid, PAIComponent component, ComponentShutdown args)
-        {
-            _actionsSystem.RemoveAction(uid, component.MidiAction);
-            _actionsSystem.RemoveAction(uid, component.MapAction);
-        }
+    private void OnShutdown(Entity<PAIComponent> ent, ref ComponentShutdown args)
+    {
+        _actions.RemoveAction(ent.Owner, ent.Comp.ShopAction);
     }
+}
+public sealed partial class PAIShopActionEvent : InstantActionEvent
+{
 }
 

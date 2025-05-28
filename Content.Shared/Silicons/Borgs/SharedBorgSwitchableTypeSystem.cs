@@ -49,17 +49,15 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
         EnsureComp<BorgSwitchableSubtypeComponent>(ent.Owner); // Mono - Temp fix for borg sprites
         Dirty(ent);
 
-        if (ent.Comp.SelectedBorgType != null &&
-            TryComp(ent, out BorgSwitchableSubtypeComponent? subtype) &&
-            subtype.BorgSubtype != null)
+        if (ent.Comp.SelectedBorgType != null)
         {
-            SelectBorgModule(ent, ent.Comp.SelectedBorgType.Value, subtype.BorgSubtype.Value);
+            SelectBorgModule(ent, ent.Comp.SelectedBorgType.Value);
         }
     }
 
     private void OnShutdown(Entity<BorgSwitchableTypeComponent> ent, ref ComponentShutdown args)
     {
-        _actionsSystem.RemoveAction(ent, ent.Comp.SelectTypeAction);
+        _actionsSystem.RemoveAction(ent.Owner, ent.Comp.SelectTypeAction);
     }
 
     private void OnSelectBorgTypeAction(Entity<BorgSwitchableTypeComponent> ent, ref BorgToggleSelectTypeEvent args)
@@ -104,7 +102,7 @@ public abstract class SharedBorgSwitchableTypeSystem : EntitySystem
         if (TryComp(ent, out BorgSwitchableSubtypeComponent? subtype))
             subtype.BorgSubtype = borgSubtype;
 
-        _actionsSystem.RemoveAction(ent, ent.Comp.SelectTypeAction);
+        _actionsSystem.RemoveAction(ent.Owner, ent.Comp.SelectTypeAction);
         _userInterface.CloseUi(ent.Owner, BorgSwitchableTypeUiKey.SelectBorgType);
         ent.Comp.SelectTypeAction = null;
         Dirty(ent);
