@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: [ OrganHumanHeart, BaseSyndicateContraband ]
+  parent: OrganHumanHeart # Aurum - It's not contraband!
   id: OrganHeartSandevistan
   name: Sandevistan
   description: Illegal cyberware that replaces the user's heart and allows them to greatly increase their speed for the cost of the endurance.
@@ -22,7 +22,7 @@
     - type: SandevistanUser
 
 - type: entity
-  parent: [ OrganHumanHeart, BaseSyndicateContraband ]
+  parent: OrganHumanHeart # Aurum - It's not contraband!
   id: OrganHeartStatvekaSandevistan
   name: mi13 statveka sandevistan
   description: A cybernetic heart implant that drastically improves the user's speed and reflexes for a short duration, at the cost of endurance. Once used by a certain mercenary.
