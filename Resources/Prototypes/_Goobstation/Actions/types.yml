@@ -15,7 +15,7 @@
     event: !type:ActivateImplantEvent
 
 - type: entity
-  parent: BaseAction
+  # parent: BaseAction
   id: ActionToggleSandevistan
   name: Toggle Sandevistan
   description: Enable or disable your improved reflexes provided by the Sandevistan.
