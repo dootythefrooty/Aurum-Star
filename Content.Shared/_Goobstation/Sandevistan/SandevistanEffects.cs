@@ -34,7 +34,7 @@ public sealed partial class SandevistanStaminaDamageEffect : SandevistanEffect
     public float Damage = 5f;
 
     public override void Effect(EntityUid uid, SandevistanUserComponent comp, IEntityManager entityManager, float frameTime)
-        => entityManager.System<SharedStaminaSystem>().TakeStaminaDamage(uid, Damage * frameTime);
+        => entityManager.System<StaminaSystem>().TakeStaminaDamage(uid, Damage * frameTime); // Aurum - still no sharedstaminasystem
 }
 
 public sealed partial class SandevistanDamageEffect : SandevistanEffect

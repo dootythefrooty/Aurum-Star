@@ -1,4 +1,4 @@
-using Content.Goobstation.Shared.Sandevistan;
+using Content.Shared._Goobstation.Sandevistan;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
 using Robust.Shared.Player;

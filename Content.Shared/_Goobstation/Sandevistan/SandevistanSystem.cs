@@ -12,7 +12,7 @@ using Content.Shared.Projectiles;
 using Content.Shared.Throwing;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Melee.Events;
-using Content.Goobstation.Common.Weapons.Ranged;
+using Content.Shared._Goobstation.Weapons.Ranged;
 using Content.Shared.Damage.Systems;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
