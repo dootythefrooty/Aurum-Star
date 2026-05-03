@@ -1,4 +1,4 @@
-using Content.Goobstation.Maths.FixedPoint;
+using Content.Shared.FixedPoint;
 using Content.Shared.Alert;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
@@ -6,7 +6,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 // Ideally speaking this should be on the heart itself... but this also works.
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class SandevistanUserComponent : Component

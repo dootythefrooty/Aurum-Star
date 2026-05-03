@@ -1,11 +1,11 @@
 using System.Numerics;
-using Content.Goobstation.Shared.Sandevistan;
+using Content.Shared._Goobstation.Sandevistan;
 using Content.Shared.Tag;
 using Robust.Client.GameObjects;
 using Robust.Shared.Prototypes;
 using DrawDepthEnum = Content.Shared.DrawDepth.DrawDepth;
 
-namespace Content.Goobstation.Client.Sandevistan;
+namespace Content.Client._Goobstation.Sandevistan;
 
 public sealed class ClientSandevistanAfterimageSystem : EntitySystem
 {

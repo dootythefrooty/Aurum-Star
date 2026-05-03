@@ -10,7 +10,7 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Timing;
 
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 [ImplicitDataDefinitionForInheritors]
 [MeansImplicitUse]

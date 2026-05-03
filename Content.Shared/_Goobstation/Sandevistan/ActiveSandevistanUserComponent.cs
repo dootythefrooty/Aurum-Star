@@ -1,6 +1,6 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 /// <summary>
 /// Marker component for currently enabled Sandevistan users, optimizing query.

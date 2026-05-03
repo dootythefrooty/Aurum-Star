@@ -1,7 +1,7 @@
 using System.Numerics;
 using Robust.Shared.GameStates;
 
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 /// <summary>
 /// Applied to entities affected by a sandevistan slowfield.

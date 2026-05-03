@@ -1,4 +1,4 @@
-using Content.Shared._Shitmed.DoAfter;
+using Content.Shared._Goobstation.DoAfter; // Aurum - why was this moved on mono from _shitmed to _goobstation? hell if i know
 using Content.Shared.Abilities;
 using Content.Shared.Alert;
 using Content.Shared.Damage.Events;
@@ -13,6 +13,7 @@ using Content.Shared.Throwing;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Goobstation.Common.Weapons.Ranged;
+using Content.Shared.Damage.Systems;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Network;
 using Robust.Shared.Physics;
@@ -23,7 +24,7 @@ using Robust.Shared.Physics.Systems;
 using Robust.Shared.Spawners;
 using Robust.Shared.Timing;
 
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 public sealed class SandevistanSystem : EntitySystem
 {

@@ -1,9 +1,9 @@
 using System.Globalization;
-using Content.Goobstation.Shared.Sandevistan;
+using Content.Shared._Goobstation.Sandevistan;
 using Content.Shared.Alert.Components;
 using Robust.Client.Player;
 
-namespace Content.Goobstation.Client.Sandevistan;
+namespace Content.Client._Goobstation.Sandevistan;
 
 public sealed class SandevistanAlertSystem : EntitySystem
 {

@@ -6,7 +6,7 @@
 
 using Robust.Shared.Serialization;
 
-namespace Content.Goobstation.Shared.Sandevistan;
+namespace Content.Shared._Goobstation.Sandevistan;
 
 [Serializable, NetSerializable]
 public enum SandevistanState : byte
