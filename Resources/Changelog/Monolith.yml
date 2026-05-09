@@ -20421,3 +20421,12 @@ Entries:
   id: 2254
   time: '2026-04-25T14:42:31.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3878
+- author: Ilya246
+  changes:
+  - type: Tweak
+    message: >-
+      Ship radar markings temporarily disabled as apparently a major lag
+      source, to be redone later.
+  id: 2294
+  time: '2026-05-06T17:25:20.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3957
