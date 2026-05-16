@@ -10,3 +10,74 @@
    Glass: 500
    Gold: 500
    Diamond: 100
+
+# Hardsuits
+
+- type: latheRecipe
+  id: RogueModsuitRecipe
+  parent: NFBaseEVASuitRecipe
+  completetime: 25
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
+  result: ClothingModsuitRogue
+  materials:
+    Steel: 11000
+    Durathread: 5000
+    Plastic: 3000
+    Plasteel: 4000
+    Silver: 8000
+    Gold: 9500
+
+- type: latheRecipe
+  id: BloodredHardsuitRecipe
+  parent: MonoHardsuitT3TsfRecipe
+  completetime: 20
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
+  result: ClothingOuterHardsuitSyndie
+  materials:
+    Plastic: 5000
+    Steel: 11000
+    Plasteel: 4500
+    Durathread: 3000
+    Silver: 2500
+    Gold: 2500
+
+- type: latheRecipe
+  id: BloodredMedicHardsuitRecipe
+  parent: MonoHardsuitT3TsfRecipe
+  completetime: 20
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
+  result: ClothingOuterHardsuitSyndieMedic
+  materials:
+    Plastic: 3000
+    Steel: 11000
+    Plasteel: 4500
+    Durathread: 3000
+    Silver: 4500
+    Gold: 500
+
+- type: latheRecipe
+  id: ClothingOuterHardsuitSyndicateEliteRecipe
+  parent: NFBaseEVASuitRecipe # Aurum changes start
+  completetime: 25
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
+  result: ClothingOuterHardsuitSyndieElite
+  materials:
+    Steel: 10000
+    Durathread: 9000
+    Plastic: 5000
+    Plasteel: 5000
+    Silver: 9000
+    Gold: 9000
+# Aurum changes end

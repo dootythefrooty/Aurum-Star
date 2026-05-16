@@ -5,7 +5,7 @@
   entityIcon: ClothingOuterHardsuitPirateScaf
   discipline: RogueEquipment
   tier: 1
-  cost: 20000
+  cost: 18000 # Aurum 20000 to 18000
   recipeUnlocks:
   - ClothingOuterHardsuitPirateScafRogue
   - ClothingOuterVestWebRogue
@@ -16,12 +16,13 @@
 - type: technology
   id: RogueAdvancedEquipment
   name: research-technology-rogue-advanced-equipment
-  entityIcon: ClothingOuterHardsuitPDVMedic
+  entityIcon: ClothingOuterHardsuitSyndie # Aurum - From the ashen medic suit to the bloodred.
   discipline: RogueEquipment
   tier: 2
-  cost: 35000
+  cost: 25000 # Aurum 35000 to 25000
   recipeUnlocks:
-  - ClothingOuterHardsuitPDVMedic
+#  - ClothingOuterHardsuitPDVMedic # Aurum - Moving the stupidly strong T2 to later T2
+  - BloodredHardsuitRecipe # Aurum - Add bloodreds to rogues again ig.
   - ClothingShoesBootsMagSyndieRogue
   - ClothingMaskGasSyndicateRogue
   - MechIFFPDV
@@ -36,9 +37,12 @@
   entityIcon: ClothingOuterHardsuitAshen
   discipline: RogueEquipment
   tier: 2
-  cost: 50000
+  cost: 32000 # Aurum 50000 to 32000
   recipeUnlocks:
   - ClothingOuterHardsuitSyndieRogue
+  - BloodredMedicHardsuitRecipe # Aurum addon
+  - RogueModsuitRecipe # Aurum - Bring the modsuit back to research
+  - ClothingOuterHardsuitPDVMedic # Aurum - Bring the strong T2 to later T2.
   - ClothingOuterHardsuitSyndieEliteRogue
   technologyPrerequisites:
   - RogueAdvancedEquipment
@@ -50,11 +54,13 @@
   name: research-technology-rogue-super-armor
   entityIcon: ClothingOuterHardsuitCybersunStealth
   discipline: RogueEquipment
-  tier: 2
-  cost: 20000
+  tier: 3 # Aurum, tier 2 -> 3
+  cost: 55000 # Aurum 20000 to 55000, these are the LAST tier, they should be treated as such.
   recipeUnlocks:
   - ClothingOuterHardsuitCybersunStealthRogue
   - ClothingOuterHardsuitJuggernautRogue
+  - ClothingOuterHardsuitSyndieCommanderRogue
+  - ClothingOuterHardsuitSyndicateEliteRecipe # Aurum
   technologyPrerequisites:
   - RogueSyndicateTacsuits
   position: 21, 12

@@ -35,13 +35,39 @@
 
 - type: latheRecipe
   id: ClothingOuterHardsuitJuggernautRogue
-  parent: MonoHardsuitT3TsfRecipe
+  parent: NFBaseEVASuitRecipe # Aurum changes start
+  completetime: 25
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
   result: ClothingOuterHardsuitJuggernaut
+  materials:
+    Steel: 35000
+    Durathread: 8000
+    Plastic: 8000
+    Plasteel: 12000
+    Silver: 5000
+    Gold: 5000
+# Aurum changes end
 
 - type: latheRecipe
   id: ClothingOuterHardsuitSyndieCommanderRogue
-  parent: MonoHardsuitT3TsfRecipe
+  parent: NFBaseEVASuitRecipe # Aurum changes start
+  completetime: 25
+  categories:
+  - CombatEva
+  - EVASuits
+  - ArmorNF
   result: ClothingOuterHardsuitSyndieCommander
+  materials:
+    Steel: 22000
+    Durathread: 8000
+    Plastic: 6000
+    Plasteel: 8000
+    Silver: 8000
+    Gold: 8000
+# Aurum changes end
 
 # misc
 

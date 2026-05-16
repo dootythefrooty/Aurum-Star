@@ -58,7 +58,7 @@
   parent: [ ClothingModsuitChestplateBase, BaseFactionGearPDVT3 ]
   id: ClothingModsuitChestplateRogue
   name: RX-01 modsuit chestplate
-  description: The chestpiece has some warning label on the inside about radiation leaks- and a note next to it 'Remove this label in the final product - Felix
+  description: The chestpiece has some warning label on the inside about radiation leaks. Shouldn't be a problem.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
         Slash: 0.45
         Piercing: 0.525
         Heat: 0.5
-        Radiation: 0.2
+        Radiation: 0.8
         Caustic: 0.3
         Poison: 0.8
 
