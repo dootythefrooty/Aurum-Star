@@ -36,7 +36,7 @@
   parent: ClothingModsuitGauntletsBase
   id: ClothingModsuitGauntletsRogue
   name: RX-01 modsuit gauntlets
-  description: Non-conductive mesh, pressure-sealed seams. Surprisingly legal. Proudly produced in Sector by Ullman Industries.
+  description: Non-conductive mesh, pressure-sealed seams. Provides a strong grip to handle weaponry and tools correctly.
   categories: [HideSpawnMenu]
   components:
   - type: Sprite

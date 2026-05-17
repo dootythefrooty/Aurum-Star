@@ -106,7 +106,7 @@
   parent: [BaseClothingModsuitHelmet, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingModsuitHelmetRogue
   name: RX-01 modsuit helmet
-  description: Does not currently feature an AI companion- note to self, sell helmet AI as separate purchase.
+  description: A reverse engineered replica of the ancient "Mazu" modsuit, now repurposed for general use by mercenaries and the like. # Aurum - Old description was awful.
   categories: [HideSpawnMenu]
   components:
   - type: Sprite
@@ -119,11 +119,11 @@
         Piercing: 0.9
         Heat: 0.9
         Radiation: 0.95
-  - type: ThermalVision
-    flashDurationMultiplier: 2
-    pulseTime: 2
-    isEquipment: true
-    toggleAction: PulseThermalVision
+  #- type: ThermalVision # Aurum - A single modsuit shouldn't have every single cake.
+  #  flashDurationMultiplier: 2
+  #  pulseTime: 2
+  #  isEquipment: true
+  #  toggleAction: PulseThermalVision
   - type: NightVision
     flashDurationMultiplier: 3.5
     isEquipment: true
@@ -132,6 +132,21 @@
     - type: FlashImmunity
     - type: EyeProtection
       protectionTime: 5
+    - type: BreathMask
+    - type: PressureProtection
+      highPressureMultiplier: 0.3
+      lowPressureMultiplier: 1000
+    - type: TemperatureProtection
+      heatingCoefficient: 0.01
+      coolingCoefficient: 0.01
+    - type: IdentityBlocker
+    - type: IngestionBlocker
+    - type: HideLayerClothing
+      slots:
+      - Hair
+      - Snout
+      - HeadTop
+      - HeadSide
   #THIS WILL BE REPLACED WITH MODULE ↓↓
   - type: ToggleableVisuals
     spriteLayer: light
