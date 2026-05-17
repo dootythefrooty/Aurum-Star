@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitPirateScaf
-  name: PDV SCAF hardsuit
-  description: An old SCAF suit painted in an PDV tan color scheme. The armor feels degraded, but lighter.
+  name: Mercenary SCAF hardsuit # Aurum - Lore changes, more like PDV removal.
+  description: An old SCAF suit painted in a tan color scheme. The armor feels degraded, but lighter.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitSyndie, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitAshen
-  name: PDV CV-32 combat hardsuit
-  description: A combat hardsuit designed by the Phaethon Dynasty. A heavier but still general-purpose hardsuit, effective but not stellar against most damage types.
+  name: WC-02 "Vanguard" combat hardsuit # Aurum - Lore changes, more like PDV removal.
+  description: A combat hardsuit designed by Waffle Corp. A heavier but still general-purpose hardsuit, effective but not stellar against most damage types.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitPDVMedic
-  name: PDV CV-82 combat tacsuit
-  description: A field medic combat hardsuit designed by the Phaethon Dynasty. The armor features various reinforced plating in vital areas.
+  name: WC-05 "Valkyrie" combat tacsuit # Aurum - Lore changes, more like PDV removal.
+  description: A field medic combat hardsuit designed by Waffle Corp. The armor features various reinforced plating in vital areas.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_medic.rsi
@@ -117,7 +117,7 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitVizier
-  name: PDV CV-67 combat tacsuit
+  name: WC-01 "Warlord" combat tacsuit # Aurum - Lore changes, more like PDV removal.
   description: An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor.
   components:
   - type: Sprite
@@ -139,8 +139,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
   id: ClothingOuterHardsuitAshenElite
-  name: PDV CV-53 combat tacsuit
-  description: Originally based off of the CV-32 hardsuit, the CV-53 tacsuit sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield.
+  name: WC-04 "Bulwark II" combat tacsuit # Aurum - Lore changes, more like PDV removal.
+  description: Originally based off of the WC-02 "Vanguard", the WC-04 "Bulwark II" sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi

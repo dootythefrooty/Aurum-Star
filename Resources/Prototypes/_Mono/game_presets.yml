@@ -71,7 +71,7 @@
   id: MonoADS
   name: mono-ads-title
   description: mono-ads-description
-  showInVote: true
+  showInVote: false # Aurum - For now we focus on one gamemode
   rules:
   - NFAdventure
   - BasicStationEventScheduler
@@ -90,7 +90,7 @@
   id: MonoChimera
   name: mono-chimera-title
   description: mono-chimera-description
-  showInVote: true
+  showInVote: false # Aurum - For now we focus on one gamemode
   rules:
   - NFAdventure
   - BasicStationEventScheduler
@@ -121,13 +121,13 @@
   - MonoAISTCShuttleSpawnerSchedulerTier2Slow
   - MonoAsakimSTCShuttleSpawnerSchedulerSlow
   - MonoMonolithicEventsScheduler
-  - PortstrikeAnnounceRuleHour4
+#  - PortstrikeAnnounceRuleHour4
 
 - type: gamePreset
   id: MonoAllAtOnce
   name: mono-allatonce-title
   description: mono-allatonce-description
-  showInVote: true # we ball
+  showInVote: false # Aurum - For now we focus on one gamemode
   weight: 0.25 # requires 80% votes
   rules:
   - NFAdventure
