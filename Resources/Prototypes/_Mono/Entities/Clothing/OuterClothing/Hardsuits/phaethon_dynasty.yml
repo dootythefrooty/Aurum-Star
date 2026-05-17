@@ -2,7 +2,7 @@
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitPirateScaf
   name: Mercenary SCAF hardsuit # Aurum - Lore changes, more like PDV removal.
-  description: An old SCAF suit painted in a tan color scheme. The armor feels degraded, but lighter.
+  description: An old SCAF suit painted in a tan color scheme. The armor feels degraded, but lighter. # Aurum - Lore changes, more like PDV removal.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi
@@ -49,7 +49,7 @@
   parent: [ ClothingOuterHardsuitSyndie, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitAshen
   name: WC-02 "Vanguard" combat hardsuit # Aurum - Lore changes, more like PDV removal.
-  description: A combat hardsuit designed by Waffle Corp. A heavier but still general-purpose hardsuit, effective but not stellar against most damage types.
+  description: A combat hardsuit designed by Waffle Corp. A heavier but still general-purpose hardsuit, effective but not stellar against most damage types. # Aurum - Lore changes, more like PDV removal.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -71,7 +71,7 @@
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearPDVT2 ]
   id: ClothingOuterHardsuitPDVMedic
   name: WC-05 "Valkyrie" combat tacsuit # Aurum - Lore changes, more like PDV removal.
-  description: A field medic combat hardsuit designed by Waffle Corp. The armor features various reinforced plating in vital areas.
+  description: A field medic combat hardsuit designed by Waffle Corp. The armor features various reinforced plating in vital areas. # Aurum - Lore changes, more like PDV removal.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/pdv_medic.rsi
@@ -140,7 +140,7 @@
   parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
   id: ClothingOuterHardsuitAshenElite
   name: WC-04 "Bulwark II" combat tacsuit # Aurum - Lore changes, more like PDV removal.
-  description: Originally based off of the WC-02 "Vanguard", the WC-04 "Bulwark II" sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield.
+  description: Originally based off of the WC-02 "Vanguard", the WC-04 "Bulwark II" sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield. # Aurum - Lore changes, more like PDV removal.
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi

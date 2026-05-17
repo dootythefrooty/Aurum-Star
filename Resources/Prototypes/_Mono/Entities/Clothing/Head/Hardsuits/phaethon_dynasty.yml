@@ -1,7 +1,7 @@
 - type: entity
   parent: [ClothingHeadHelmetHardsuitSyndie] # Aurum - Removed ShowSecurityIcons, this isn't a sec hardsuit tbh.
   id: ClothingHeadHelmetHardsuitAshen
-  name: WC-02 "Vanguard" combat hardsuit helmet
+  name: WC-02 "Vanguard" combat hardsuit helmet # Aurum - Lore changes, more like PDV removal.
   description: A combat hardsuit helmet designed by Waffle Corp.
   categories: [ HideSpawnMenu ]
   components:
@@ -14,7 +14,7 @@
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons] # Aurum - Removed ShowSecurityIcons cuz, this is a medic hardsuit?
   id: ClothingHeadHelmetHardsuitPDVMedic
   name: WC-05 "Valkyrie" combat tacsuit helmet # Aurum - Lore changes, more like PDV removal.
-  description: A hardsuit helmet by Waffle Corp. Has a built-in medical HUD complemented by thermal pulse systems.
+  description: A hardsuit helmet by Waffle Corp. Has a built-in medical HUD complemented by thermal pulse systems. # Aurum - Lore changes, more like PDV removal.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
   parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitAshenElite
   name: WC-04 "Bulwark II" combat tacsuit helmet # Aurum - Lore changes, more like PDV removal.
-  description: Based off of the WC-02 "Vanguard" hardsuit, this tacsuit sacrifices heavy armor plates for environmental protection.
+  description: Based off of the WC-02 "Vanguard" hardsuit, this tacsuit sacrifices heavy armor plates for environmental protection. # Aurum - Lore changes, more like PDV removal.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
   parent: [ClothingHeadHelmetHardsuitSyndieElite, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitVizier
   name: WC-01 "Warlord" combat hardsuit helmet # Aurum - Lore changes, more like PDV removal.
-  description: An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor.
+  description: An adorned tacsuit designed with an imperfect nanolaminate composition. High maneuverability, sturdy armor. # Aurum - Lore changes, more like PDV removal.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
