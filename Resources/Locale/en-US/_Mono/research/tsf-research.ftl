@@ -1,11 +1,11 @@
-research-discipline-tsfmc-weaponry = TSFMC Arsenal
-research-discipline-tsfmc-gear = TSFMC Gear
-research-discipline-tsfmc-equipment = TSFMC Equipment
-research-discipline-tsfmc-shipyard = TSFMC Heavy Industry
+research-discipline-tsfmc-weaponry = TSF Arsenal
+research-discipline-tsfmc-gear = TSF Gear
+research-discipline-tsfmc-equipment = TSF Equipment
+research-discipline-tsfmc-shipyard = TSF Heavy Industry
 
-research-technology-tsfmc-basic-equipment = Basic TSFMC Equipment
-research-technology-tsfmc-advanced-equipment = Advanced TSFMC Equipment
-research-technology-tsfmc-experimental-equipment = Experimental TSFMC Equipment
+research-technology-tsfmc-basic-equipment = Basic TSF Equipment
+research-technology-tsfmc-advanced-equipment = Advanced TSF Equipment
+research-technology-tsfmc-experimental-equipment = Experimental TSF Equipment
 research-technology-tsfmc-mopp-equipment = Chemical Protection Gear
 
 # T1 TSFMC
@@ -26,4 +26,4 @@ research-technology-tsfmc-altair-voucher = Altair Procurement LPC
 research-technology-tsfmc-flyssa-voucher = Flyssa Procurement LPC
 research-technology-tsfmc-super-weapons = State-of-the-art Weapons Manufacturing
 research-technology-tsfmc-synthalloy = Experimental Material Science
-research-technology-tsfmc-advanced-module = TSFMC Advanced Cyborg Module Developpment
+research-technology-tsfmc-advanced-module = TSF Advanced Cyborg Module Developpment

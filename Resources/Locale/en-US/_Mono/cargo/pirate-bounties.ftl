@@ -1,4 +1,4 @@
-pirate-bounty-item-merc-suit = Mercernary Hardsuit
+pirate-bounty-item-merc-suit = Mercenary Hardsuit
 pirate-bounty-item-faction-tacsuit = Faction Tacsuit
 pirate-bounty-item-faction-tacsuit-high = Faction Advanced Tacsuit
 pirate-bounty-item-energy-weapon = Faction Energy Weapon
