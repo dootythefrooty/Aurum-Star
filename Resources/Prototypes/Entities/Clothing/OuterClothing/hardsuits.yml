@@ -1160,8 +1160,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  name: NTX-001 "Hades" Hardsuit # Aurum - EE like hardsuit flavor names or smth
+  description: A highly advanced, top of the line hardsuit, it seems to be branded with the logo of Nanotrasen. # Aurum - Lore.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
