@@ -60,6 +60,7 @@
     - SmartGun
     # Aurum Packs
     - SmartLMGs
+    - LargeChestRigs
   - type: MaterialStorage
     whitelist:
       tags:

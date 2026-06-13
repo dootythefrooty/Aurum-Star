@@ -624,6 +624,7 @@
     # Einstein Engines Packs
     - Translators # Language
     - TranslatorImplanters # Language
+    - NFPouches # Aurum
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget
